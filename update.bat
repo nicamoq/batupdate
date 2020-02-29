@@ -1,8 +1,8 @@
 @echo off
 
-:: INPUT THE LOCAL VERSION HERE (replace local and localtwo's "1.0") also replace link with your own.
+:: INPUT THE LOCAL VERSION HERE (replace local's "1.0") also replace link with your own.
 set local=1.0
-set localtwo=1.0
+set localtwo=%local%
 set link=https://pastebin.com/raw/EAS8MJgp
 :: Text like these are batch file comments, and will not affect the code.
 :: If you're new to batch please follow these carefully.
